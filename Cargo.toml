@@ -7,5 +7,6 @@ edition = "2021"
 
 [dependencies]
 chrono = "*"
+float_eq = "*"
 itertools = "*"
 regex = "*"
