@@ -1,5 +1,7 @@
 pub mod human_readable_duration_format;
+pub mod number_of_total_fractions_with_denomitor_d;
 pub mod organize_a_round_robin_tournament;
 pub mod simplifying_multilinear_polynomials;
+pub mod square_and_cube_of_a_number_become_prime_when_reversed;
 pub mod square_into_square_protect_trees;
 pub mod total_increasing_or_decreasing_numbers_up_to_a_power_of_10;
