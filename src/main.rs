@@ -1,5 +1,6 @@
-use self::kyu6::versions_manager::VersionManager;
 use self::kyu6::most_frequent_days::most_frequent_days;
+use self::kyu6::pascals_triangle::pascals_triangle::pascals_triangle;
+use self::kyu6::versions_manager::VersionManager;
 mod kyu6;
 use self::kyu5::easy_cyclists_training::easy_cyclists_training::temps;
 use self::kyu5::factorial_decomposition::factorial_decomposition::decomp;
@@ -37,4 +38,6 @@ fn main() {
     println!("organize_a_round_robin_tournament: {:?}", build_matches_table(4));
 
     println!("human_readable_duration_format: {}", format_duration(62));
+
+    println!("{:?}", pascals_triangle(4));
 }
